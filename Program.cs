@@ -16,3 +16,5 @@ char target = Console.ReadLine()[0]; // user types a
 SmallestLetterGreterThanTerget solution = new SmallestLetterGreterThanTerget();
 char returnedChar = solution.NextGreatestLetter(letters, target);
 Console.WriteLine($"The smallest letter greater than '{target}' is: '{returnedChar}'");
+
+
