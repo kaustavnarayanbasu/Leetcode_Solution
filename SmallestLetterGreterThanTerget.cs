@@ -17,6 +17,7 @@ namespace Leetcode_Solution
                     return letter;
                 }
             }
+
             // If no character is greater, wrap around and return the first
             return letters[0];
         }

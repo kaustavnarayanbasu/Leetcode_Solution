@@ -17,22 +17,10 @@ else
     Console.WriteLine("No two elements found with the given sum.");
 }
 
-//char returnedChar = solution.NextGreatestLetter(letters, target);
-//Console.WriteLine($"The smallest letter greater than '{target}' is: '{returnedChar}'");
+Console.WriteLine("Enter terget character:");
+char target = Console.ReadLine()[0]; // user types a
+SmallestLetterGreterThanTerget solution = new SmallestLetterGreterThanTerget();
+char returnedChar = solution.NextGreatestLetter(letters, target);
+Console.WriteLine($"The smallest letter greater than '{target}' is: '{returnedChar}'");
 
-//Console.WriteLine("Enter characters (e.g., cfj):");
-//string input = Console.ReadLine();   // user types cfj
-//char[] letters = input.ToCharArray(); // convert string to char array
-
-//Array.Sort(letters);
-//foreach (char c in letters)
-//{
-//    Console.Write(c + " ");
-//}
-
-//Console.WriteLine("Enter terget character:");
-//char target = Console.ReadLine()[0]; // user types a
-//SmallestLetterGreterThanTerget solution = new SmallestLetterGreterThanTerget();
-//char returnedChar = solution.NextGreatestLetter(letters, target);
-//Console.WriteLine($"The smallest letter greater than '{target}' is: '{returnedChar}'");
 
